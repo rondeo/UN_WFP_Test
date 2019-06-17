@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Route requires
 const user = require('./routes/user')
-const phases = require('./routes/table')
+const table = require('./routes/table')
 
 // MIDDLEWARE
 app.use(morgan('dev'))

@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 mongoose.promise = Promise;
 
 // Define phaseSchema
-const phaseSchema = new Schema({
+const tableSchema = new Schema({
   id: { type: Number, unique: true, required: true, index: true },
   name: { type: String, unique: false, required: false, index: false },
   description: { type: String, unique: false, required: false, index: false },
@@ -43,5 +43,5 @@ const phaseSchema = new Schema({
   }]
 });
 
-const Phase = mongoose.model("Phase", phaseSchema);
-module.exports = Phase;
+const Table = mongoose.model("Table", tableSchema);
+module.exports = Table;

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ServerPort = require('../database/models/phases');
+const ServerPort = require('../database/models/table');
 
 router.route('/').get(function (req, res) {
     ServerPort.find(function (err, serverports){
