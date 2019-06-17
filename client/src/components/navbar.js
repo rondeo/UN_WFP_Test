@@ -44,8 +44,8 @@ class Navbar extends Component {
                 </div>
                 <div className="col-md-7" />
                 <div className="col-md-3">
-                  <Link to="/phases" className="btn btn-link">
-                    <span className="Navbar-link">phases</span>
+                  <Link to="/table" className="btn btn-link">
+                    <span className="Navbar-link">table</span>
                   </Link>
                   {/* <Link to="/disciplines" className="btn btn-link">
                     <span className="Navbar-link">disciplines</span>
@@ -53,10 +53,6 @@ class Navbar extends Component {
                   <Link to="/map" className="btn btn-link">
                     <span className="Navbar-link">map</span>
                   </Link>
-                  <Link to="/other" className="btn btn-link">
-                    <span className="Navbar-link">other</span>
-                  </Link>
-
                   <span className="btn btn-link" onClick={this.logout}>
                     <Link to="/" className="Navbar-link">
                       logout

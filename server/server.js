@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Route requires
 const user = require('./routes/user')
-const phases = require('./routes/phases')
+const phases = require('./routes/table')
 
 // MIDDLEWARE
 app.use(morgan('dev'))
@@ -47,7 +47,7 @@ app.use(passport.session()) // calls the deserializeUser
 
 // Routes
 app.use('/user', user)
-app.use('/phases', phases)
+app.use('/table', table)
 
 // Starting Server 
 app.listen(PORT, () => {

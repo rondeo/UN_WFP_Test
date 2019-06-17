@@ -7,11 +7,10 @@ import Signup from "./components/sign-up";
 import LoginForm from "./components/login-form";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
-import Other from "./components/other";
 import Footer from "./components/footer";
 import AdminAdd from "./components/admin-add";
 import Admin from "./components/admin";
-import Phases from "./components/phases";
+import Table from "./components/table";
 import Map from "./components/map";
 
 // css
@@ -71,9 +70,8 @@ class App extends Component {
           render={() => <LoginForm updateUser={this.updateUser} />}
         />
         <Route exact path="/signup" render={() => <Signup />} />
-        <Route path="/phases" component={Phases} />
+        <Route path="/table" component={Table} />
         <Route exact path="/map" render={() => <Map />} />
-        <Route exact path="/other" render={() => <Other />} />
         <Route exact path="/admin" render={() => <Admin />} />
         <Route exact path="/admin/create" render={() => <AdminAdd />} />
         <Footer />

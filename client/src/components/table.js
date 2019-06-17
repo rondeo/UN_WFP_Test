@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
-import axios from "axios";
+// import { Route, Link } from "react-router-dom";
+// import axios from "axios";
+import "./table.css";
 
-class Phases extends React.Component {
+class Table extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,7 +56,6 @@ class Phases extends React.Component {
             <tbody>
               {forms.map(form => (
                 <tr>
-                  <th scope="row" />
                   <td>{form._id}</td>
                   <td>{form.age}</td>
                   <td>{form.Arif_moustache}</td>
@@ -70,4 +70,4 @@ class Phases extends React.Component {
   }
 }
 
-export default Phases;
+export default Table;
