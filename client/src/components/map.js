@@ -74,11 +74,12 @@ class Map extends Component {
       <div className="container">
           <h1>Submitted Form Data - Map</h1>
           <hr />
-          <br />
           <div className="Map_Container">
           <Wrapper width="100%" height="600px" id="map">
           </Wrapper>
           </div>
+          <br>
+          </br>
       </div>
     );
   }

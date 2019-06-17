@@ -1,3 +1,8 @@
 th{
     text-align: center;
+    color: white;
+}
+
+thead{
+    background-color: #2A93FC;
 }

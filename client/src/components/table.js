@@ -43,7 +43,6 @@ class Table extends React.Component {
         <div className="container">
           <h1>Submitted Form Data - Table</h1>
           <hr />
-          <br />
           <table className="table table-striped">
             <thead>
               <tr>
@@ -64,6 +63,8 @@ class Table extends React.Component {
               ))}
             </tbody>
           </table>
+          <br>
+          </br>
         </div>
       );
     }
