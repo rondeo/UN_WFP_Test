@@ -1,0 +1,24 @@
+#admin_add{
+    text-align: left
+}
+
+
+.form-input{
+    padding: 5px;
+}
+
+.form-control{
+    padding: 5px;
+}
+
+#admin_add_title{
+    text-align: center
+}
+
+#admin_add_button{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}

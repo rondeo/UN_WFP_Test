@@ -1,0 +1,42 @@
+.Footer-container{
+    background-color: rgb(215,215,216);
+    border-width: 0px;
+    border-style: solid;
+    height: 120px;
+    padding: 20px;
+    color: white;
+  }
+
+  .Footer-content{
+    font-size: 10px;
+    color: black;
+    text-align: left;
+  }
+  
+  a{
+    color:black
+  }
+
+  /* linkable */
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ED1B2E;
+    text-decoration: none;
+  } 

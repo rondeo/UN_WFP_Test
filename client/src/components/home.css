@@ -1,0 +1,77 @@
+.parallax {
+    /* The image used */
+    background-image: url("../images/push_cart.jpg");
+  
+    /* Set a specific height */
+    min-height: 360px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_title{
+    font-size: 80px;
+    font-weight: bold;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    vertical-align: middle;
+    padding-top: 100px;
+    color: white;
+    text-shadow: -1px 0 rgb(159,159,163), 0 1px rgb(159,159,163), 1px 0 rgb(159,159,163), 0 -1px rgb(159,159,163);
+  }
+
+
+  .home_body_text{
+    text-align:left
+  }
+
+  .btn{
+    color:white;
+  }
+
+  .btn-primary{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #2A93FC;
+    border-color: #2A93FC;
+  }
+
+
+  /* linkable */
+  .btn-primary:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .btn-primary:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  .btn-primary:hover {
+    color: #2A93FC;
+    text-decoration: none;
+    background-color: white;
+    border-color:#2A93FC
+  }
+  
+  /* selected link */
+  .btn-primary:active {
+    color: #ED1B2E;
+    text-decoration: none;
+    background-color:#ED1B2E;
+    border-color:#ED1B2E
+  }
+
+  #global_impact{
+    width: 100%;
+  }
