@@ -14,7 +14,9 @@ class Table extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://api.ona.io/api/v1/data/185260")
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    const targetUrl = 'https://api.ona.io/api/v1/data/185260'
+    fetch(proxyUrl + targetUrl)
       .then(res => res.json())
       .then(
         result => {
