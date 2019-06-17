@@ -37,7 +37,7 @@ class Signup extends Component {
       .then(response => {
         console.log(response);
         if (response.status === 200) {
-          alert("Signup was successful for username " + response.data.username);
+          alert("Signup was successful for username " + response.data.username + ". Please re-enter through login now.");
           // update the state to redirect to home
           this.setState({
             redirectTo: "/login"
