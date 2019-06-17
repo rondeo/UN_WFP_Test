@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-mongoose.promise = Promise;
+mongoose.Promise = global.Promise;
 
 // Define phaseSchema
 const tableSchema = new Schema({
@@ -32,5 +32,5 @@ const tableSchema = new Schema({
   less_preferred_food: { type: String, unique: false, required: false, index: false },
 });
 
-const Table = mongoose.model("Table", tableSchema);
+const Table = mongoose.model("table", tableSchema);
 module.exports = Table;

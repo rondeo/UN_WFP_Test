@@ -1,15 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const ServerPort = require('../database/models/table');
+const Table = require('../database/models/table');
 
-router.route('/').get(function (req, res) {
-    ServerPort.find(function (err, serverports){
-    if(err){
-      console.log(err);
-    }
-    else {
-      res.json(serverports);
-    }
+router.post('/table', function(req,res){
+  Table.create(req.body).then(function(table){
+    res.send(table);
   });
 });
 
