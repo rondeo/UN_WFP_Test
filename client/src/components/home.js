@@ -15,45 +15,33 @@ class Home extends Component {
           <div className="col-md-10">
             <div className="home_body_text">
               <br />
-              <h1>Background</h1>
-              <hr />
-              {/* <img src={image} id="global_impact" alt="amrc_global_impact"/> */}
               <p>
-                Whether it’s a typhoon in the Philippines, a migration crisis in
-                Bangladesh, wildfires in Chile, or extreme cold weather in
-                Mongolia, the American Red Cross (AmRC) is steadfast in its
-                efforts to support Red Cross and Red Crescent National Societies
-                across the globe as they work to ensure that affected
-                populations are provided the essential goods and services they
-                need to rebuild their communities and restart their lives.
-                Through the rapid deployment of Disaster Recovery Specialists,
-                equipped with key technical expertise and equipment, and through
-                the release of pre-positioned supplies strategically placed in
-                warehouses across the globe, the AmRC has helped more than 4.6
-                million people affected by disasters. To ensure that disaster
-                affected populations continue to be supported in an efficient,
-                effective, sustainable, and impactful way, it is imparative that
-                AmRC supported Disaster Recovery programs are implemented in a
-                systematic and consistent fashion, with all staff and volunteers
-                following a standardized approach.
-                <br />
-                <br />
-                With this goal in mind, the AmRC has developed a Disaster
-                Recovery Toolkit, to serve as a reference guide for Disaster
-                Recovery Specialists as they implement large-scale Disaster
-                Recovery programs. This toolkit provides a basic outline of the
-                minimally required steps for management of these programs and
-                outlines the tools needed to executed these steps effectively.
-                This toolkit, although certainly not exhaustive or obligatory,
-                provides a basic framework for standarized management of
-                Disaster Recovery programs and allows for clear and open
-                dialogue among staff and volunteers working under AmRC supported
-                Disater Recovery programs. In addition to its use as a reference
-                guide during project implementation, this toolkit may also find
-                value as a framework for Capacity Enhancement and Disaster
-                Preparedness activities as specifics skills can be discussed in
-                context of the larger project management cycle. To explore the
-                Disater Recovery Toolkit, please sign-up and login below.
+                The United Nations World Food Program (WFP) Vulnerability
+                Analysis and Mapping (VAM) Unit is an internal structure within
+                WFP that provides temporary and long-term technical assistance
+                in food security analysis to decision-makers at WFP Headquarters
+                in Rome and in WFP Regional and Country Offices. The VAM network
+                is currently comprised of three full-time international staff
+                members in Rome Headquarters, 12 international VAM Officers, and
+                approximately 20 VAM National Officers and VAM Focal Points.
+                This network currently provides food security analysis coverage
+                for 36 countries. The broad goals of VAM are to: Provide the
+                factual basis for WFP country program design, in both the relief
+                and development contexts, to identify, understand, and best
+                address problems of food insecurity and vulnerability in WFP
+                partner countries; Provide additional information and analytical
+                support as needed during relief and development program
+                implementation and evaluation phases. The VAM strategy is a
+                direct extension of the guidance provided in WFP’s current
+                Program Design Manual and Enabling Development strategy document. 
+                VAM is expressly an information tool for WFP relief and
+                development program design, management, and evaluation. Working
+                with WFP program staff in each country where it is operational,
+                VAM will produce a range of analytical outputs intended to
+                inform decision-making at key points within the WFP country
+                programming cycle. As a result, the VAM analytical cycle is
+                explicitly linked to the country programming cycle. Please login/sign up below
+                to access the VAM portal.
               </p>
               <div className="row">
                 <Link to="/login" className="btn btn-primary center-block">
