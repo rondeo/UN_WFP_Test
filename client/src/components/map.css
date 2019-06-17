@@ -3,3 +3,9 @@
     margin:auto;
     width:70%;
 }
+
+.Content_Body{
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+}

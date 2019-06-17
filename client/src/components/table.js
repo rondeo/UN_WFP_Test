@@ -41,7 +41,7 @@ class Table extends React.Component {
     } else {
       return (
         <div className="container">
-          <h1>Submitted Form Data</h1>
+          <h1>Submitted Form Data - Table</h1>
           <hr />
           <br />
           <table className="table table-striped">

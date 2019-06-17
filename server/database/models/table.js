@@ -4,43 +4,32 @@ mongoose.promise = Promise;
 
 // Define phaseSchema
 const tableSchema = new Schema({
-  id: { type: Number, unique: true, required: true, index: true },
-  name: { type: String, unique: false, required: false, index: false },
-  description: { type: String, unique: false, required: false, index: false },
-  resources: [{
-    id: { type: Number, unique: false, required: true },
-    name: { type: String, unique: false, required: true },
-    description: { type: String, unique: false, required: true },
-    timeframe: [
-      {
-        small: { type: Number, unique: false, required: false },
-        medium: { type: Number, unique: false, required: false },
-        large: { type: Number, unique: false, required: false }
-      }
-    ],
-    disciplines: [{type:String, unique: false, required: false}],
-    deliverables: [
-      {
-        deliverable_title: { type: String, unique: false, required: false },
-        deliverable_url: { type: String, unique: false, required: false },
-        deliverable_thumb_url: { type: String, unique: false, required: false }
-      }
-    ],
-    tool: [
-      {
-        tool_title: { type: String, unique: false, required: false },
-        tool_url: { type: String, unique: false, required: false },
-        tool_thumb_url: { type: String, unique: false, required: false }
-      }
-    ],
-    tool_example: [
-      {
-        tool_example_title: { type: String, unique: false, required: false },
-        tool_example_url: { type: String, unique: false, required: false },
-        tool_example_thumb_url: { type: String, unique: false, required: false }
-      }
-    ]
-  }]
+  _id: { type: Number, unique: true, required: true, index: true },
+  age: { type: Number, unique: false, required: false, index: false },
+  _tags: [],
+  _uuid: { type: String, unique: false, required: false, index: false },
+  _today: { type: String, unique: false, required: false, index: false },
+  _notes: [],
+  _edited: { type: Boolean, unique: false, required: false, index: false },
+  _status: { type: String, unique: false, required: false, index: false },
+  _JM_braid: { type: String, unique: false, required: false, index: false },
+  _version:{ type: String, unique: false, required: false, index: false },
+  Continent:{ type: String, unique: false, required: false, index: false },
+  _duration:{ type: String, unique: false, required: false, index: false },
+  _JM_haircut:{ type: String, unique: false, required: false, index: false },
+  borrow_food:{ type: String, unique: false, required: false, index: false },
+  _attachments:[],
+  _geolocation:[],
+  avoid_eating: { type: String, unique: false, required: false, index: false },
+  'formhub/uuid': { type: String, unique: false, required: false, index: false },
+  _submitted_by: { type: String, unique: false, required: false, index: false },
+  Arif_moustache: { type: String, unique: false, required: false, index: false },
+  'meta/instanceID': { type: String, unique: false, required: false, index: false },
+  _submission_time: { type: String, unique: false, required: false, index: false },
+  _xform_id_string: { type: String, unique: false, required: false, index: false },
+  type_of_moustache: { type: String, unique: false, required: false, index: false },
+  _bamboo_dataset_id: { type: String, unique: false, required: false, index: false },
+  less_preferred_food: { type: String, unique: false, required: false, index: false },
 });
 
 const Table = mongoose.model("Table", tableSchema);

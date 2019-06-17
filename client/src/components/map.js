@@ -71,15 +71,14 @@ class Map extends Component {
 
   render() {
     return (
-      <div>
-        <div className="Content_Body">
-          <h1> Map </h1>
-          <hr></hr>
+      <div className="container">
+          <h1>Submitted Form Data - Map</h1>
+          <hr />
+          <br />
           <div className="Map_Container">
           <Wrapper width="100%" height="600px" id="map">
           </Wrapper>
           </div>
-        </div>
       </div>
     );
   }

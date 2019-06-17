@@ -20,17 +20,21 @@ the app’s architecture. Regarding the stack, you are free to use whatever you 
 bonus points if you use open source tools and python.
 
 ## Tools / Resources / Technologies
+### Model
+* MongoDB
+* mLab
+
 ### View
 * HTML
 * CSS
 * Javascript
 * React
 * Bootstrap
-### Model
-* MongoDB
+
 ### Controller
 * Node.js
 * Express.js
+
 ### General
 * Heroku
 * Git
