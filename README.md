@@ -10,11 +10,29 @@ is public, so no authentication is required.
 
 ## Instructions
 You will need to build an application that:
-* 1. makes a GET request to pull the data from this endpoint
-* 2. transform the data in the desired format
-* 3. saves it into a database of your choice (bonus points for NoSQL)
+1. makes a GET request to pull the data from this endpoint
+2. transform the data in the desired format
+3. saves it into a database of your choice (bonus points for NoSQL)
 
 Keep in mind that ideally this application should be scalable, i.e. in the future we may want
 to use it to handle 10s or 100s of similar pipelines and we want you to keep this in mind for
 the app’s architecture. Regarding the stack, you are free to use whatever you want to solve the task, however
 bonus points if you use open source tools and python.
+
+## Tools / Resources / Technologies
+### View
+* HTML
+* CSS
+* Javascript
+* React
+* Bootstrap
+### Model
+* MongoDB
+### Controller
+* Node.js
+* Express.js
+### General
+* Heroku
+* Git
+* VSCode
+
