@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "UN WFP Test",
   "version": "1.0.0",
-  "description": "Boilerplate MongoDB Express React Node app.",
+  "description": "UN WFP Test",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,8 +11,8 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nielsenjared/mern.git"
+    "type": "",
+    "url": ""
   },
   "keywords": [
     "mern",
@@ -21,12 +21,12 @@
     "express",
     "node"
   ],
-  "author": "Jared Nielsen",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/nielsenjared/mern/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/nielsenjared/mern#readme",
+  "homepage": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
