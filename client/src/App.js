@@ -14,10 +14,6 @@ import Admin from "./components/admin";
 import Phases from "./components/phases";
 import Map from "./components/map";
 
-// components to be added
-// import HomeDisciplines from "./components/home-disciplines";
-// import Page404 from "./components/page404";
-
 // css
 import "./App.css";
 

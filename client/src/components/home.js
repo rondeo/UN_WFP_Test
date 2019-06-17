@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import image from "../images/AmRC_ISD_Image.PNG";
 
 class Home extends Component {
   render() {
