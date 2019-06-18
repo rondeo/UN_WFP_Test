@@ -1,10 +1,10 @@
 # UN_WFP_Test
 
-Deployed Link:
+Deployed Application:
 
 https://un-wfp-test.herokuapp.com/
 
-Navigation Tutorial:
+Application Navigational Tutorial:
 
 https://drive.google.com/file/d/1xZbuQ9bhAUSGBxnJWNmD6mdZRsw3BBXZ/view
 
