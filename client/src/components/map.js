@@ -78,6 +78,7 @@ class Map extends Component {
           <Wrapper width="100%" height="600px" id="map">
           </Wrapper>
           </div>
+          <p>Note - This page is a placeholder until form data with geospatial attributes is made available</p>
           <br>
           </br>
       </div>
