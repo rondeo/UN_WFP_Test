@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const db = mongoose.createConnection('mongodb://localhost/table')
-const Schema = mongoose.Schema
+const Schema = mongoose.Schema;
+mongoose.Promise = global.Promise;
 
 
 const tableSchema = new Schema({
@@ -31,6 +31,6 @@ const tableSchema = new Schema({
   'less_preferred_food': String,
 })
 
-const Table = db.model('table', tableSchema)
+const Table = mongoose.model('table', tableSchema)
 module.exports = Table
 
